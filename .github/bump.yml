@@ -32,7 +32,7 @@ categories:
     changes-prefix: ':gift: '
   - title: 'Changes'
     labels:
-      - Maintenance
+      - 'Maintenance'
     commits:
       - 'change:'
     changes-prefix: ':hammer: '
