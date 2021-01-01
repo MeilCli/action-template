@@ -1,6 +1,9 @@
 # action-template
 This repository is my GitHub Action Repository template
 
+## Contributing
+see [Contributing.md](./.github/CONTRIBUTING.md)
+
 ## License
 MIT License
 
