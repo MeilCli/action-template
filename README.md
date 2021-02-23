@@ -25,7 +25,7 @@ This repository is my GitHub Action Repository template
 changelist:
 - CodeOwner
 - Dependabot
-- seacret name at `ci.yml` and `merge.yml`
+- secret name at `ci.yml` and `merge.yml`
 - license copyright
 
 ## Contributing
