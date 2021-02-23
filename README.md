@@ -20,6 +20,7 @@ This repository is my GitHub Action Repository template
    - Allow rebase merging
 1. change setting to on
     - Automatically delete head branches
+1. remove comment out `release.yml` schedule cron
 
 ### For without MeilCli
 changelist:
