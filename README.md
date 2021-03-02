@@ -1,6 +1,6 @@
 # action-template
 This repository is my GitHub Action Repository template
-test
+testtet
 ## Usage of this template
 1. use this template
 1. rename package at `package.json`
