@@ -18,6 +18,7 @@ jobs:
     if: github.event.review.state == 'approved' || !github.event.review
     runs-on: ubuntu-latest
     steps:
+      - run: echo "event_name $GITHUB_EVENT_NAME"
       - uses: reitermarkus/automerge@v1
         with:
           token: ${{ secrets.MEILCLI_BOT }}
