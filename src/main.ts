@@ -5,7 +5,9 @@ async function run() {
     try {
         const option = getOption();
     } catch (error) {
-        core.setFailed(error.message);
+        if (error instanceof Error) {
+            core.setFailed(error.message);
+        }
     }
 }
 
