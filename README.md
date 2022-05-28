@@ -21,6 +21,11 @@ This repository is my GitHub Action Repository template
 1. change setting to on
     - Automatically delete head branches
 1. remove comment out `release.yml` schedule cron
+1. add metrics
+   - create gist
+   - add secrets
+   - change repository
+   - update README
 
 ### For without MeilCli
 changelist:
@@ -28,12 +33,16 @@ changelist:
 - Dependabot
 - secret name at `ci.yml` and `merge.yml`
 - license copyright
+- add metrics
 
-## Contributing
+## Contributes
+[<img src="https://gist.github.com/MeilCli/a868dd04410c3db570788e6449f48f81/raw/6f528257820a27dfcb81f4fae023a8c734aed21f/metrics_contributors.svg">](https://github.com/MeilCli/action-template/graphs/contributors)
+
+### Could you want to contribute?
 see [Contributing.md](./.github/CONTRIBUTING.md)
 
 ## License
-MIT License
+[<img src="https://gist.github.com/MeilCli/a868dd04410c3db570788e6449f48f81/raw/6f528257820a27dfcb81f4fae023a8c734aed21f/metrics_licenses.svg">](LICENSE.txt)
 
 ### Using
 - [actions/toolkit](https://github.com/actions/toolkit), published by [MIT License](https://github.com/actions/toolkit/blob/master/LICENSE.md)
