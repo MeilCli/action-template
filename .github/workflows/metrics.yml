@@ -10,7 +10,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics_contributors.svg
           # ToDo: change your repository
-          repo: MeilCli/action-template
+          repo: action-template
           template: repository
           base: ''
           output_action: gist
@@ -28,7 +28,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics_licenses.svg
           # ToDo: change your repository
-          repo: MeilCli/action-template
+          repo: action-template
           template: repository
           base: ''
           output_action: gist
