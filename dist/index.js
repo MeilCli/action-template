@@ -35,7 +35,6 @@ const option_1 = __nccwpck_require__(103);
 async function run() {
     try {
         const option = (0, option_1.getOption)();
-        core.info("test");
     }
     catch (error) {
         if (error instanceof Error) {
