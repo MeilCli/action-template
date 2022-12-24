@@ -6,7 +6,7 @@ This repository is my GitHub Action Repository template
 1. rename package at `package.json`
 1. change labels use `.github/labels.yml` and [MobileAct/GithubLabelSetUpper](https://github.com/MobileAct/GithubLabelSetUpper)
    - change `bug` and `question` labels before GithubLabelSetUpper, because it tool has bug case insensitive
-1. add bot account token `MEILCLI_BOT`(`public_repo` scope)
+1. add bot account token `MEILCLI_BOT`(fine-granted token, readonly `Commit status`, read-write `Contents` and `PullRequest` scope)
 1. add branch protection rule `master`
    - `Require pull request reviews before merging`
      - `Dismiss stale pull request approvals when new commits are pushed`
