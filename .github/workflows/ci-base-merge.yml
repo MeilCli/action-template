@@ -7,7 +7,7 @@ jobs:
     if: github.event_name == 'pull_request' && github.actor == 'MeilCli'
     steps:
       - uses: actions/github-script@v6
-        if: contains(github.event.pull_request.labels.*.name, 'Action')
+        if: github.event.pull_request.title == 'update actions'
         with:
           github-token: ${{ secrets.MEILCLI_BOT }}
           script: |
